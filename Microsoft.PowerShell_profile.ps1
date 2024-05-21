@@ -270,6 +270,3 @@ if (Get-Command zoxide -ErrorAction SilentlyContinue) {
         Write-Error "Failed to install zoxide. Error: $_"
     }
 }
-
-Set-Alias --Name cd -Value z
-Set-Alias --Name ls -Value"eza --color=always --long --git --no-filesize --icons=always --no-time --no-user --no-permissions"
